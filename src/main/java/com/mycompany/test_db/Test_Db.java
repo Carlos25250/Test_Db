@@ -5,11 +5,12 @@ package com.mycompany.test_db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//Carlos gonzalez.@
+//5456455
 
 public class Test_Db{
      public static void main(String[] args) throws ClassNotFoundException, SQLException
- { 
+ {
     try {
         String driver = "com.mysql.cj.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/student";
